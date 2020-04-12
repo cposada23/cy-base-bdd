@@ -1,0 +1,36 @@
+{
+  "name": "cy-base",
+  "version": "1.0.0",
+  "description": "Proyecto base para bdd con cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cposada23/cy-base-bdd.git"
+  },
+  "keywords": [
+    "cypress",
+    "node",
+    "bdd",
+    "cucumber",
+    "automation"
+  ],
+  "author": "Camilo Posada Angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cposada23/cy-base-bdd/issues"
+  },
+  "homepage": "https://github.com/cposada23/cy-base-bdd#readme",
+  "devDependencies": {
+    "cypress": "^4.3.0",
+    "cypress-cucumber-preprocessor": "^2.3.0",
+    "cypress-xpath": "^1.4.0",
+    "prettier": "^2.0.4"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
